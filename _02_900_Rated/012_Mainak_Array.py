@@ -18,4 +18,5 @@ for _ in range(t):
     for i in range(n - 1):
         ans = max(ans, a[i] - a[i + 1])
 
+
     print(ans)
