@@ -17,5 +17,4 @@ for _ in range(t):
     # Case 4: Maximum consecutive difference
     for i in range(n - 1):
         ans = max(ans, a[i] - a[i + 1])
-
     print(ans)
